@@ -6031,3 +6031,81 @@ nav .join-button:hover {
     }
 
 }
+
+@media (max-width: 800px) {
+
+    .home-hero {
+        min-height: 100vh !important;
+        height: auto !important;
+        padding: 120px 24px 80px !important;
+        overflow: visible !important;
+    }
+
+    .home-hero-content {
+        display: block !important;
+        width: 100% !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .home-hero .section-label {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .home-hero h1 {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+
+        font-size: 52px !important;
+        line-height: 1 !important;
+
+        margin: 25px 0 30px !important;
+    }
+
+    .home-hero h1 span {
+        display: inline !important;
+        visibility: visible !important;
+    }
+
+    .home-hero-description {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+
+        width: 100% !important;
+        height: auto !important;
+
+        font-size: 15px !important;
+        line-height: 1.7 !important;
+
+        margin-bottom: 35px !important;
+    }
+
+    .hero-actions {
+        display: flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 20px !important;
+    }
+
+    .hero-button,
+    .hero-text-link {
+        display: inline-block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .home-hero-number {
+        display: flex !important;
+        visibility: visible !important;
+
+        position: static !important;
+        margin-top: 60px !important;
+    }
+}
